@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Social Media Marketing & AI Chatbots for Restaurants in Islamabad | Ghulam Abbas</title>
-  <meta name="description" content="Social media content and AI customer replies for restaurants, cafés and food businesses in Islamabad and Rawalpindi. Get more customers online. Chat on WhatsApp with Ghulam Abbas.">
+  <title>AI Chatbots &amp; Social Media for Restaurants Islamabad</title>
+  <meta name="description" content="Social media posts and AI customer replies for restaurants and cafés in Islamabad &amp; Rawalpindi. Chat on WhatsApp with Ghulam Abbas today.">
   <meta name="author" content="Ghulam Abbas">
   <meta name="robots" content="index, follow">
   <meta name="google-site-verification" content="rZ6eA6yLDdLyx8iQG8rnD_n8BHAIyNali2OqSh_z-0g" />
@@ -17,7 +17,13 @@
   <meta property="og:title" content="Help your restaurant get noticed online | Ghulam Abbas">
   <meta property="og:description" content="Social media content and AI customer replies for restaurants, cafés and food businesses in Islamabad and Rawalpindi.">
   <meta property="og:locale" content="en_PK">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:site_name" content="Ghulam Abbas">
+  <meta property="og:image" content="https://abbasaipk.netlify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Help your restaurant get noticed online: social media posts and AI customer replies in Islamabad and Rawalpindi">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://abbasaipk.netlify.app/og-image.png">
 
   <!-- Small icon shown in the browser tab (drawn with code, no image file needed) -->
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23C2410C'/%3E%3Ccircle cx='32' cy='32' r='14' fill='%23F2A93B'/%3E%3C/svg%3E">
@@ -38,14 +44,40 @@
       "addressLocality": "Islamabad",
       "addressCountry": "PK"
     },
-    "founder": { "@type": "Person", "name": "Ghulam Abbas" }
+    "image": "https://abbasaipk.netlify.app/og-image.png",
+    "founder": { "@type": "Person", "name": "Ghulam Abbas", "sameAs": ["https://www.linkedin.com/in/ghulam-abbas-7b20b225b"] },
+    "sameAs": ["https://www.linkedin.com/in/ghulam-abbas-7b20b225b"]
+  }
+  </script>
+
+  <!-- Common questions, so Google can understand them -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Who do you work with?",
+        "acceptedAnswer": { "@type": "Answer", "text": "I work with restaurants, cafés, bakeries, dhabas and other food businesses in Islamabad and Rawalpindi, and online with food businesses anywhere in Pakistan." } },
+      { "@type": "Question", "name": "Which social media platforms do you help with?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Mainly Facebook and Instagram, the platforms most customers in Islamabad and Rawalpindi use to find places to eat. I can also prepare content you can share on your WhatsApp status." } },
+      { "@type": "Question", "name": "What can an AI chatbot answer for my restaurant?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The questions customers ask again and again: opening hours, location, menu items and prices, delivery areas and how to book a table. Questions that need a person are passed to your staff." } },
+      { "@type": "Question", "name": "Can the chatbot reply in Urdu?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. It can reply in English, Urdu or Roman Urdu, depending on how your customers write." } },
+      { "@type": "Question", "name": "Do I need any technical knowledge?",
+        "acceptedAnswer": { "@type": "Answer", "text": "No. I set everything up and explain it in simple language, in English or Urdu. You only need to share your menu, timings and photos." } },
+      { "@type": "Question", "name": "How much does it cost?",
+        "acceptedAnswer": { "@type": "Answer", "text": "It depends on what your restaurant needs. Send me a message on WhatsApp with a few details and I will share a clear price before any work starts." } }
+    ]
   }
   </script>
 
   <!-- Free Google Fonts (no account or payment needed) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Fonts load in the background so the page appears faster -->
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet"></noscript>
 
   <style>
     :root {
@@ -435,6 +467,29 @@
     .contact .btn-whatsapp { background: #1F8A4C; color: var(--white); }
     .contact .btn-whatsapp:hover { background: #17703D; }
 
+    /* FAQ */
+    .faq-list { max-width: 780px; margin: 0 auto; display: grid; gap: 14px; }
+    .faq-list details {
+      background: var(--white);
+      border: 1px solid var(--cream-dark);
+      border-radius: var(--radius);
+      padding: 18px 24px;
+      transition: border-color 0.2s;
+    }
+    .faq-list details[open] { border-color: var(--tomato); }
+    .faq-list summary {
+      font-weight: 700;
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .faq-list summary::-webkit-details-marker { display: none; }
+    .faq-list summary::after { content: "+"; color: var(--tomato); font-size: 1.4rem; line-height: 1; }
+    .faq-list details[open] summary::after { content: "–"; }
+    .faq-list details p { color: var(--brown-soft); margin-top: 10px; }
+
     /* Footer */
     footer {
       background: #2C1F18;
@@ -443,6 +498,8 @@
       padding: 28px 20px;
       font-size: 0.95rem;
     }
+    footer p + p { margin-top: 6px; }
+    footer a { color: var(--saffron); }
 
     /* ---------- RESPONSIVE ---------- */
     @media (max-width: 860px) {
@@ -484,7 +541,12 @@
       to   { opacity: 1; transform: translateY(0); }
     }
     .hero .eyebrow      { animation: riseIn 0.7s ease-out both; }
-    .hero h1            { animation: riseIn 0.7s ease-out 0.15s both; }
+    /* The main heading stays visible from the first moment (helps page speed scores) */
+    @keyframes riseInSoft {
+      from { transform: translateY(20px); }
+      to   { transform: translateY(0); }
+    }
+    .hero h1            { animation: riseInSoft 0.7s ease-out both; }
     .hero p             { animation: riseIn 0.7s ease-out 0.3s both; }
     .hero .hero-actions { animation: riseIn 0.7s ease-out 0.45s both; }
 
@@ -597,6 +659,7 @@
           <li><a href="#services">Services</a></li>
           <li><a href="#how-it-works">How It Works</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#faq">FAQ</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -635,7 +698,7 @@
     <section class="alt-bg" id="services">
       <div class="container">
         <div class="section-head reveal">
-          <h2>Services</h2>
+          <h2>Services for restaurants in Islamabad &amp; Rawalpindi</h2>
           <p>Two simple ways I can help your restaurant connect with more customers.</p>
         </div>
 
@@ -706,6 +769,43 @@
       </div>
     </section>
 
+    <!-- ===== FAQ ===== -->
+    <section id="faq">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Common questions</h2>
+          <p>Quick answers for restaurant and café owners.</p>
+        </div>
+
+        <div class="faq-list">
+          <details>
+            <summary>Who do you work with?</summary>
+            <p>I work with restaurants, cafés, bakeries, dhabas and other food businesses in Islamabad and Rawalpindi, and online with food businesses anywhere in Pakistan.</p>
+          </details>
+          <details>
+            <summary>Which social media platforms do you help with?</summary>
+            <p>Mainly Facebook and Instagram, the platforms most customers in Islamabad and Rawalpindi use to find places to eat. I can also prepare content you can share on your WhatsApp status.</p>
+          </details>
+          <details>
+            <summary>What can an AI chatbot answer for my restaurant?</summary>
+            <p>The questions customers ask again and again: opening hours, location, menu items and prices, delivery areas and how to book a table. Questions that need a person are passed to your staff.</p>
+          </details>
+          <details>
+            <summary>Can the chatbot reply in Urdu?</summary>
+            <p>Yes. It can reply in English, Urdu or Roman Urdu, depending on how your customers write.</p>
+          </details>
+          <details>
+            <summary>Do I need any technical knowledge?</summary>
+            <p>No. I set everything up and explain it in simple language, in English or Urdu. You only need to share your menu, timings and photos.</p>
+          </details>
+          <details>
+            <summary>How much does it cost?</summary>
+            <p>It depends on what your restaurant needs. Send me a message on WhatsApp with a few details and I will share a clear price before any work starts.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
     <!-- ===== CONTACT ===== -->
     <section class="contact" id="contact">
       <div class="container">
@@ -740,7 +840,8 @@
 
   <!-- ===== FOOTER ===== -->
   <footer>
-    <p>&copy; <span id="year">2026</span> Ghulam Abbas. All rights reserved.</p>
+    <p>&copy; <span id="year">2026</span> Ghulam Abbas · Social media &amp; AI chatbots for restaurants in Islamabad &amp; Rawalpindi</p>
+    <p><a href="https://www.linkedin.com/in/ghulam-abbas-7b20b225b" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://wa.me/923071303230" target="_blank" rel="noopener">WhatsApp 0307 1303230</a></p>
   </footer>
 
   <script>
